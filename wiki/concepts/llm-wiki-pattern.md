@@ -1,11 +1,11 @@
 ---
 title: LLM-Wiki Pattern
 type: concept
-tags: [knowledge-management, methodology, meta]
+tags: [knowledge-management, methodology, meta, RAG, zettelkasten]
 created: 2026-06-15
-updated: 2026-06-15
-sources: ["[[wiki/sources/karpathy-llm-wiki]]"]
-related: []
+updated: 2026-06-23
+sources: ["[[wiki/sources/karpathy-llm-wiki]]", "[[wiki/sources/andrej-karpathy-second-brain]]"]
+related: ["[[wiki/entities/andrej-karpathy]]", "[[wiki/entities/niklas-luhmann]]"]
 status: stable
 ---
 
@@ -56,8 +56,50 @@ status: stable
 - [[index]] ↔ 内容目录
 - [[log]] ↔ 时间线日志
 
+## 局限性（Luhmann 批评）
+
+> [!note] 2026-06-23 更新自 [[wiki/sources/andrej-karpathy-second-brain]]：补充第三方批评视角
+
+一位 Substack 作者引用 [[wiki/entities/niklas-luhmann]] 指出：
+
+- LLM 擅长**侦察阶段**（整理、连接、发现关联）
+- **合成阶段**（形成原创洞见）仍是人的工作
+- Luhmann 卡片盒的手写摩擦感不是障碍，而是理解发生的机制
+
+> "The AI compiles the territory. You still have to walk it."
+
+这一批评界定了 llm-wiki 的边界：消除组织体力劳动，但不替代深度思考。
+
+## 知识飞轮
+
+> [!note] 2026-06-23 更新自 [[wiki/sources/andrej-karpathy-second-brain]]：补充输出层描述
+
+查询的答案作为 markdown 文件归档回 wiki，形成飞轮：
+
+```
+新素材 → Ingest → wiki 页面 → Query → 答案 → 归档回 wiki → 更富的 wiki
+```
+
+还可输出 Marp 幻灯片、matplotlib 图表、比较表格——输出物统一以 markdown 形式回流。
+
+## 商业视角
+
+> [!note] 2026-06-23 更新自 [[wiki/sources/andrej-karpathy-second-brain]]：Vamshi Reddy 洞察
+
+> [!quote]
+> "Every business has a raw/ directory. Nobody's ever compiled it. That's the product."
+> — Vamshi Reddy
+
+适用场景：竞品分析、尽职调查、行程规划、小说追踪、技术学习、考试复习……schema 层吸收所有领域定制，同一架构可编译不同类型的 wiki。
+
+## 未来方向
+
+> [!note] 2026-06-23 更新自 [[wiki/sources/andrej-karpathy-second-brain]]
+
+- wiki 成熟后可生成**合成训练数据**，微调专属小模型——从"查询时读 wiki"升级为"模型已内化你的研究领域"
+
 ## 待办 / 可演化点
 
 - [ ] 当 wiki > 100 篇时，引入 [qmd](https://github.com/tobi/qmd) 本地搜索。
 - [ ] 探索 Obsidian Dataview + frontmatter 自动生成动态视图。
-- [ ] 评估是否需要 Marp 幻灯片输出。
+- [x] 评估是否需要 Marp 幻灯片输出。（Karpathy 已验证此用法）
