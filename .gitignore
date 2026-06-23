@@ -1,0 +1,22 @@
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Obsidian (保留 vault config 由你决定，默认忽略缓存)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# Local agent configs
+.codeflicker/
+
+# MyKnowledge skill（本地 skill 目录，不推送远端）
+MyKnowledge/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
