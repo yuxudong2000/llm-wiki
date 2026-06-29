@@ -41,6 +41,7 @@ description: |
 - `wiki/` 由 LLM 维护；`sources/` 摘要页文件名 = raw 文件名（去扩展名）
 - 内部链接统一用 `[[wiki-link]]` 格式
 - 所有 wiki 页面必须有 YAML frontmatter
+- **OKF 必填字段**：`type`、`title`、`description`、`resource`（无外部链接写 `""`）、`tags`
 - 置信度：页面级 `confidence` frontmatter 字段 + 推断段落用 `> [!note] 推断：…` callout
 - 去重：ingest 前必须 `ls wiki/sources/` 比对，发现重复询问用户
 - git commit：用 `ingest:`、`query:`、`lint:` 前缀

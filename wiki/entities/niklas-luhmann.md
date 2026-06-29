@@ -1,9 +1,11 @@
 ---
 title: Niklas Luhmann
 type: entity
+description: 德国社会学家（1927-1998），Zettelkasten 卡片盒笔记系统创立者，其手写摩擦感被引用为 llm-wiki 模式的边界批评。
+resource: "https://en.wikipedia.org/wiki/Niklas_Luhmann"
 tags: [person, sociology, knowledge-management, zettelkasten]
 created: 2026-06-23
-updated: 2026-06-23
+updated: 2026-06-29
 sources: ["[[wiki/sources/andrej-karpathy-second-brain]]"]
 related: ["[[wiki/concepts/llm-wiki-pattern]]", "[[wiki/concepts/zettelkasten]]"]
 confidence: EXTRACTED

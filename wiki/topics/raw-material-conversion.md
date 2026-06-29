@@ -1,9 +1,10 @@
 ---
 title: 原始材料转换工具指南
 type: topic
+description: 各类原始材料（网页/PDF/Word/播客/截图）转 markdown 的工具选择与用法矩阵，供投入 raw/ 前使用。
 tags: [tooling, workflow, markdown, pdf, ocr]
 created: 2026-06-16
-updated: 2026-06-16
+updated: 2026-06-29
 sources: []
 related: ["[[wiki/concepts/llm-wiki-pattern]]"]
 status: stable

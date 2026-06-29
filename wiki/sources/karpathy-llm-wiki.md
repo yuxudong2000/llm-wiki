@@ -1,11 +1,14 @@
 ---
 title: Karpathy — A pattern for LLM-maintained personal wikis
 type: source
+description: Karpathy 提出用 LLM 增量构建持久化知识库的 llm-wiki 模式，raw/wiki/schema 三层架构，ingest/query/lint 三操作。
+resource: "https://gist.github.com/karpathy/442a6bf555914893e9871c11519de94f"
 tags: [knowledge-management, llm, agents, methodology]
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-06-29
 sources: []
 related: ["[[wiki/concepts/llm-wiki-pattern]]"]
+confidence: EXTRACTED
 status: stable
 ---
 

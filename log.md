@@ -2,6 +2,16 @@
 
 > Append-only。每条以 `## [YYYY-MM-DD] <op> | <title>` 开头，便于 `grep "^## \[" log.md | tail -10`。
 
+## [2026-06-29] schema-update | 对齐 OKF v0.1 规范
+- 改动范围：AGENTS.md（OKF 兼容声明 + frontmatter 定义新增 description/resource 必填字段）、skill/SKILL.md（核心约定补 OKF 必填字段说明）
+- 补丁：为全部 6 个现有 wiki 页面补充 `description` 和 `resource` 字段
+- notes: OKF 强制字段只有 type，本仓库对齐其推荐字段集（type/title/description/resource/tags）；confidence/status/sources/related 作为本仓库扩展保留
+
+## [2026-06-24] ingest | How the Open Knowledge Format Can Improve Data Sharing
+- source: [[wiki/sources/how-open-knowledge-format-can-improve-data-sharing]]
+- touched: [[wiki/concepts/llm-wiki-pattern]]（关联：OKF 是 LLM-wiki 的形式化标准化）
+- notes: Google Cloud 在 Karpathy LLM-wiki gist 发布 2 个月后即推出 OKF v0.1，本 wiki 结构已高度符合 OKF 精神，可逐步补充 resource 字段向标准靠拢
+
 ## [2026-06-23] ingest | Andrej Karpathy Stopped Using AI to Write Code. He's Using It to Build a Second Brain Instead
 - source: [[wiki/sources/andrej-karpathy-second-brain]]
 - touched: [[wiki/concepts/llm-wiki-pattern]]（追加局限性/知识飞轮/商业视角/未来方向）, [[wiki/entities/andrej-karpathy]]（新建）, [[wiki/entities/niklas-luhmann]]（新建）

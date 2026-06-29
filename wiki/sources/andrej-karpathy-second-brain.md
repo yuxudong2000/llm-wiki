@@ -1,10 +1,11 @@
 ---
 title: "Andrej Karpathy Stopped Using AI to Write Code. He's Using It to Build a Second Brain Instead"
 type: source
+description: Nikhil 对 Karpathy llm-wiki 模式的详细解读，含 RAG 对比、Luhmann 批评、知识飞轮与商业视角。
+resource: "https://pub.neuralnotions.ai/andrej-karpathy-stopped-using-ai-to-write-code-hes-using-it-to-build-a-second-brain-instead-cddceadc5df5"
 tags: [llm-wiki, knowledge-management, RAG, zettelkasten, second-brain]
 created: 2026-06-23
-updated: 2026-06-23
-url: https://pub.neuralnotions.ai/andrej-karpathy-stopped-using-ai-to-write-code-hes-using-it-to-build-a-second-brain-instead-cddceadc5df5
+updated: 2026-06-29
 author: Nikhil
 published: 2026-04-06
 raw_path: raw/articles/Andrej Karpathy Stopped Using AI to Write Code. He's Using It to Build a Second Brain Instead.md

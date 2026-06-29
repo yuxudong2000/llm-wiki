@@ -4,6 +4,8 @@
 > **执行步骤（ingest/query/lint/digest 的具体操作流程）见 `skill/SKILL.md`。**
 >
 > 本仓库是 [Karpathy llm-wiki 模式](https://gist.github.com/karpathy/442a6bf555914893e9871c11519de94f) 的一个实例。
+>
+> **OKF 兼容声明**：本仓库 frontmatter 结构基于 [Open Knowledge Format v0.1](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf) 规范，并在此基础上扩展了 `confidence`、`status`、`sources` 字段。OKF 必填字段：`type`、`title`、`description`、`resource`、`tags`。
 
 ---
 
@@ -55,6 +57,8 @@ log.md         # 时间线日志（每次 ingest/query/lint 追加一条）
 ---
 title: 页面显示标题
 type: entity | concept | topic | source | synthesis
+description: 一句话概述此页内容           # OKF 必填
+resource: "https://..."                   # OKF 必填，无外部链接时写 ""
 tags: [tag1, tag2]
 created: 2026-04-02
 updated: 2026-04-05
@@ -64,6 +68,9 @@ confidence: EXTRACTED          # EXTRACTED | INFERRED | AMBIGUOUS | UNVERIFIED
 status: stub | draft | stable  # 成熟度
 ---
 ```
+
+**OKF 核心字段（必填，不可省略）**：`type`、`title`、`description`、`resource`、`tags`
+**本仓库扩展字段（推荐填写）**：`confidence`、`status`、`sources`、`related`
 
 **置信度说明**：
 - `EXTRACTED`：信息在原文中可直接找到
@@ -162,4 +169,4 @@ status: stub | draft | stable  # 成熟度
 
 ---
 
-_首版：2026-06-15 | 重构：2026-06-23_
+_首版：2026-06-15 | 重构：2026-06-23 | OKF 对齐：2026-06-29_

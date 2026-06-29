@@ -1,9 +1,11 @@
 ---
 title: LLM-Wiki Pattern
 type: concept
+description: Karpathy 提出的、用 LLM 增量构建并维护个人/团队知识库的模式，raw/wiki/schema 三层架构，ingest/query/lint 三操作。
+resource: "https://gist.github.com/karpathy/442a6bf555914893e9871c11519de94f"
 tags: [knowledge-management, methodology, meta, RAG, zettelkasten]
 created: 2026-06-15
-updated: 2026-06-23
+updated: 2026-06-29
 sources: ["[[wiki/sources/karpathy-llm-wiki]]", "[[wiki/sources/andrej-karpathy-second-brain]]"]
 related: ["[[wiki/entities/andrej-karpathy]]", "[[wiki/entities/niklas-luhmann]]"]
 status: stable

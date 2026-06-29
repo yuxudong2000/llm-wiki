@@ -3,7 +3,7 @@
 > 本 wiki 所有页面的内容目录，按类别组织。
 > LLM 在每次 ingest 后必须更新本文件。提问时也先读这里再钻具体页。
 
-_最后更新：2026-06-23_
+_最后更新：2026-06-24_
 
 ---
 
@@ -24,6 +24,7 @@ _最后更新：2026-06-23_
 
 - [[wiki/sources/karpathy-llm-wiki]] — Karpathy 关于 LLM 个人知识库模式的 gist（2026-04-04）
 - [[wiki/sources/andrej-karpathy-second-brain]] — Nikhil 对 Karpathy llm-wiki 模式的详细解读，含 RAG 对比、Luhmann 批评、商业场景（2026-04-06）
+- [[wiki/sources/how-open-knowledge-format-can-improve-data-sharing]] — Google Cloud 将 LLM-wiki 模式规范化为开放格式标准 OKF v0.1，无 SDK、无平台锁定（2026-06-12）
 
 ## Synthesis（综合 / 比较 / 问答回流）
 

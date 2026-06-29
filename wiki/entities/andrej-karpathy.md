@@ -1,9 +1,11 @@
 ---
 title: Andrej Karpathy
 type: entity
+description: AI 研究员、前 OpenAI 联合创始人、前 Tesla AI 负责人，"vibe coding" 和 llm-wiki 模式提出者。
+resource: "https://karpathy.ai"
 tags: [person, AI, OpenAI, Tesla, researcher]
 created: 2026-06-23
-updated: 2026-06-23
+updated: 2026-06-29
 sources: ["[[wiki/sources/andrej-karpathy-second-brain]]", "[[wiki/sources/karpathy-llm-wiki]]"]
 related: ["[[wiki/concepts/llm-wiki-pattern]]"]
 confidence: EXTRACTED
