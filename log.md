@@ -2,6 +2,13 @@
 
 > Append-only。每条以 `## [YYYY-MM-DD] <op> | <title>` 开头，便于 `grep "^## \[" log.md | tail -10`。
 
+## [2026-08-17] ingest | 批量摄入 raw/notes/ 下 5 份素材
+- sources: [[wiki/sources/AB实验]], [[wiki/sources/fde-research]], [[wiki/sources/fortune500-industry-trend-report]], [[wiki/sources/glean-china-product-design]], [[wiki/sources/kappa系数]]
+- new entities: [[wiki/entities/myflicker]], [[wiki/entities/glean]]
+- new concepts: [[wiki/concepts/mde]], [[wiki/concepts/hte]], [[wiki/concepts/cuped]], [[wiki/concepts/fde]], [[wiki/concepts/data-fde]], [[wiki/concepts/kappa-coefficient]]
+- new topics: [[wiki/topics/ab-experiment-methodology]], [[wiki/topics/fortune500-country-evolution]]
+- notes: 本次最重要内容——AB实验"平台上岸→科学实验"三层升级路径（MDE/HTE/CUPED/Capping）；FDE/数据FDE模型；Kappa系数在AI评测中的应用；中国版Glean产品设计；Fortune 500国别格局30年演变（中国大陆2020年首超美国节点澄清）
+
 ## [2026-06-29] schema-update | 对齐 OKF v0.1 规范
 - 改动范围：AGENTS.md（OKF 兼容声明 + frontmatter 定义新增 description/resource 必填字段）、skill/SKILL.md（核心约定补 OKF 必填字段说明）
 - 补丁：为全部 6 个现有 wiki 页面补充 `description` 和 `resource` 字段
