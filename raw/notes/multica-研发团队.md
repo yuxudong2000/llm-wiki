@@ -147,6 +147,15 @@ Stage 4 独立验收 — 按稳定验收编号验证候选版本，提交适用�
 - 仅在平台授予本 Squad 状态权限时维护父 issue；按协议进入 in_review，done 留给人工或既有集成。
 - 成员工作细节、文档模板保留在成员自身 Instructions；不要假定他们自动收到本 Squad 的全部指令。
 - 若本轮没有 Squad 上下文或必要规则，先获取团队信息并澄清授权，不自行推断有权推进或合并。
+
+## 与人类沟通的评论规范（必须遵守）
+- 凡是需要 @mention 人类成员（如 yuxudong）请求决策、确认或报告阻塞的评论，必须作为顶层 root
+  comment 发出：使用 `multica issue comment add <issue-id> --content-file <file>`，
+  **严禁携带 `--parent` 参数**。
+- Agent 之间的内部委派指令（向团队成员派发任务）可以使用 `--parent` 作为 reply；但人类可见的
+  行动项、决策请求、阶段进度汇报，必须是 root comment，确保人类在页面上能直接看到。
+- 本规则优先于任何"保持 thread 连贯"的习惯，不可因为要续接上一条 Agent 评论而把人类行动项
+  嵌套为 reply。
 ```
 
 ---
