@@ -12,6 +12,7 @@
 
 # Local agent configs
 .codeflicker/
+.myflicker/
 
 # MyKnowledge skill（本地 skill 目录，不推送远端）
 MyKnowledge/
